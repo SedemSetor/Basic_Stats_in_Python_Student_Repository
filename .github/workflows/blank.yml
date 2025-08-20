@@ -41,7 +41,7 @@ jobs:
         uses: GuillaumeFalourd/clone-github-repo-action@main
         with:
           owner: 'AkeemSemper'
-          repository: 'Intro_to_Machine_Learning_Full_Repo'
+          repository: 'Basic_Stats_in_Python_Full_Repo'
           access-token: ${{ secrets.GH_PAT }}
 
       - name: Access cloned repository content 
